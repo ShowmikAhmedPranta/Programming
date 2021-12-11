@@ -23,7 +23,7 @@ class STack:
         return len(self._DAta)
     
     def IS_EMPTY(self):
-        if(self.LENGTH==0):
+        if(self.LENGTH()==0):
             return True
         else:
             return False
