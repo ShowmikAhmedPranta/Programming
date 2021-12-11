@@ -14,4 +14,7 @@ def Parentheses_Matching(A):
             else:
                 if(right_parentheses.index(i) != left_parentheses.index(a.POP())):
                     return False
-    return True
+    if(a.IS_EMPTY()):
+        return True
+    else:
+        return False
